@@ -14,7 +14,7 @@ pool:
 
 # variables:
 #   - name: SONAR_TOKEN
-#     value: "c03384d7661ee7aa89d51a2626d0a7f5783823e5"
+#     value: ""
 
 steps:
 # - task: Maven@3
