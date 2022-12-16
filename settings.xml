@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <profiles>
+    <profile>
+      <id>default</id>
+      <repositories>
+        <repository>
+          <id>azArtifacts10am</id>
+          <name>azArtifacts10am</name>
+          <url>https://pkgs.dev.azure.com/azcloudbinary/az10am/_packaging/azArtifacts10am/maven/v1</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>default</activeProfile>
+  </activeProfiles>
+  <servers>
+    <server>
+      <id>azArtifacts10am</id>
+      <username>azcloudbinary</username>
+      <password>tmdqxhnqlnferljyc2dh2u42tubtg252sljzvk3qrq36ijnief7a</password>
+    </server>
+  </servers>
+</settings>
